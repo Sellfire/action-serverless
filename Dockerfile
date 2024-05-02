@@ -11,7 +11,7 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="gray-dark"
 
 # Install serverless globally
-RUN yarn global add serverless@3.35.0
+RUN yarn global add serverless@3.33.0
 
 ADD "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
